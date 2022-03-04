@@ -1,29 +1,28 @@
-# MedicalImageClassification_Supervised
-This is the Medical Image Classification for Supervised Training
+# TrafficSignImageClassification_German and Persian Traffic Signs
+This is the Multi Class Image Classification Model
 
 
 
-Title : Multi class Image Classifcation for Medical Imaging - Diabetic Retinopathy Detection:
+Title : Multi class Image Classifcation for Traffic Sign - for Two different Nations (European and Persian)
+
 
 Problem Statement 
 
-Training the different set of Model with Two different datasets which are available on Kaggle for Diabetic Retinopathy detection , There are five classes available
+Training the Model with Two different datasets which are available on Kaggle for  Traffic Sign:
 
-0 - No DR
-
-1 - Mild
-
-2 - Moderate
-
-3 - Severe
-
-4 - Proliferative DR
+There are 43 classes each for German and Persian datasets, 
+Learning Outcome : To implement the computer vision and CNN techniques for the Image classification which have been learned during the semester 
 
 Datesets used:
-1. APTOS 2019 Blindness Detection 
-2. Messidor-2 Dataset
+1. German Traffic Sign Recognition
+2. Persian Traffic Sign Recognition
 
-Dataset link :
-1. https://www.kaggle.com/c/aptos2019-blindness-detection/overview
-2.https://www.kaggle.com/mariaherrerot/messidor2preprocess
+Collected Datasets link :
+Persian : https://www.kaggle.com/saraparsaseresht/persian-traffic-sign-dataset-ptsd
+German : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
+Technologies Used:
+Numpy
+Pandas
+Keras,Tensorflow 
+Python 
