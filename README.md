@@ -3,14 +3,14 @@ This is the Multi Class Image Classification Model
 
 
 
-Title : Multi class Image Classifcation for Traffic Sign - for Two different Nations (European and Persian)
+Title : Multi class Image Classifcation for Traffic Sign - for Two different Nations (German and Persian)
 
 
 Problem Statement 
 
 Training the Model with Two different datasets which are available on Kaggle for  Traffic Sign:
 
-There are 43 classes each for German and Persian datasets, 
+There are 43 classes each for German and Persian datasets, Here I have taken few classes from both the datasets and combined iit
 Learning Outcome : To implement the computer vision and CNN techniques for the Image classification which have been learned during the semester 
 
 Datesets used:
