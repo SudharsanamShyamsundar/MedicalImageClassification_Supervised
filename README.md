@@ -1,47 +1,27 @@
-# TrafficSignImageClassification_German and Persian Traffic Signs
+# Traffic Sign Image Classification German and Iran Traffic Signs
+Project Title : Multi class Single Image Classification - Traffic Sign
 
-Names: Sudharsanam Shyamsundar and Ziad Attia
+The Project is based on Computer Vision , to be specific it is Multiclass Single Image Classification 
 
-This is the Multi Class Image Classification Model
+Team Members : 
+    1.Ziad Attia
+    2.Shyamsundar Sudharsanam
 
+Project Description
+Given the image , the model has to predict which class these image belongs to . 
+We have taken German and Persian(Iran) Traffic Sign Datasets from the kaggle which will be used for training the model.
+Proposal is to train the model with the following approach 
+    1. Use German Traffic Sign Dataset
+    2. Use Persian Traffic Sign Dataset
+    3. Combine the Persian and Traffic Sign Dataset 
 
+For your awareness , as lot of solutions has been made in Kaggle for training only the German Traffic Sign dataset, we have taken 
+the Persian(Iran) traffic Sign dataset and doing the custom training by experimenting with different activations functions ,CNN 
+techniques ,epochs for the good learning outcome of the deep learning fundamentals course .
 
-Title : Multi class Image Classifcation for Traffic Sign - for Two different Nations (German and Persian)
+In addition , we would like to include the image enhancment techniques ,if possible.
 
-
-Problem Statement 
-
-Training the Model with Two different datasets which are available on Kaggle for  Traffic Sign:
-
-There are 43 classes each for German and Persian datasets, Here I have taken few classes from both the datasets and combined it. 
-
-Class list :
-0 : No passing veh over 3.5 tons
-1 : Right-of-way at intersection
-2 :Priority road
-3:Veh > 3.5 tons prohibited
-4:General caution
-5:Dangerous curve left
-6:Dangerous curve right
-7:Double curve
-8:Bumpy road
-9:Slippery road
-10:Road narrows on the right
-11:End no passing veh > 3.5 tons
-12:Cycle crossing
-13:Give Way',
-14:Hump
-15:Left Turn Prohibited
-16:MotorCycle Prohibited
-17:Park Forbidden
-18:Speed Camera
-19:Road Work
-20:School Crossing
-
-
-As classes have been given different id as a result of taking random classes from datsets, Test dataset has to be corrected and doing it in using Python Script 
-
-Learning Outcome : To implement the computer vision and CNN techniques for the Image classification which have been learned during the semester 
+Categories in German and persian datasets, both these datasets share the same 43 class types.
 
 Datesets used:
 1. German Traffic Sign Recognition
@@ -52,6 +32,7 @@ Persian : https://www.kaggle.com/saraparsaseresht/persian-traffic-sign-dataset-p
 German : https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
 Technologies Used:
+openCV
 Numpy
 Pandas
 Keras,Tensorflow 
