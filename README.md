@@ -56,3 +56,8 @@ Numpy
 Pandas
 Keras,Tensorflow 
 Python 
+
+Colab :
+https://colab.research.google.com/drive/13C9o1TsgBq9OIZXAAjsdAO5ETH6S6-IP?authuser=1#scrollTo=mtskshHDDVwC&uniqifier=2
+
+Transfer Learning changes in transfer_learning branch
